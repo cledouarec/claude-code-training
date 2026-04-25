@@ -1,0 +1,25 @@
+{
+  "name": "claude-formation",
+  "version": "1.0.0",
+  "description": "Claude Code workshop — slides and exercises",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides/index.md --open",
+    "build": "slidev build slides/index.md",
+    "export": "slidev export slides/index.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.2",
+    "playwright-chromium": "^1.59.1"
+  },
+  "dependencies": {
+    "slidev-addon-qrcode": "^1.0.2",
+    "slidev-theme-dracula": "^0.2.0"
+  },
+  "slidev": {
+    "addons": [
+      "slidev-addon-qrcode"
+    ]
+  }
+}
